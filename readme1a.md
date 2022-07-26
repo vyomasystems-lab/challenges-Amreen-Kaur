@@ -73,6 +73,7 @@ The updated design is checked in as level1_design1_correctcode.v .
 
 ## Verification Strategy
 According to the digital design of an ideal n:1 mux, there needs to be n unique select input values possible which correspondingly selects n unique input values. Any other value apart from the n input values if given by the select lines results in a default output. This basic functionality of the mux needs to be correctly verified one by one for each of the select inputs and its corresponding outputs. Thus, the tests done perform the same, i.e. check the outputs for all the select inputs and inputs possible in a 31:1 mux and print an error if there is any discrepancy in the process.
+![image]()
 ## Is the verification complete ?
 Yes, the verification is complete as per a 31:1 mux design.
 
