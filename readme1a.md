@@ -1,4 +1,4 @@
-# LEVEL-2 REPORT 
+# LEVEL-1 REPORT 
 ## 1.a: Mux Design Verification(Level-1:Design 1)
 The verification environment is setup using Vyoma's UpTickPro provided for the hackathon.
 
