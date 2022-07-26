@@ -37,7 +37,7 @@ Output mismatches for the above inputs proving that there is a design bug.
 dut.sel.value=0b11110
 dut.inp30.value=0b01  
 ```
--According to the logic the output is not obtained and throws an error.
+- According to the logic the output is not obtained and throws an error.
 ```python
 AssertionError: Mux result is incorrect for select input:30 & input :1 as the output is not :1.
 ```
