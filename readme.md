@@ -5,7 +5,7 @@ The verification environment is setup using Vyoma's UpTickPro provided for the h
 ![Image Link](https://github.com/vyomasystems-lab/challenges-Amreen-Kaur/blob/master/images/ss.jpg)
 
 ## Verification Environment
-The CoCoTb based Python test is developed as explained. The test drives inputs to the Design Under Test (adder module here) which takes 5-bit input values for the select input(sel) and corresponding 2 bit values in inputs:0-31 as follows-
+The CoCoTb based Python test is developed as explained. The test drives inputs to the Design Under Test (mux module here) which takes 5-bit input values for the select input(sel) and corresponding 2 bit values in inputs:0-31 as follows-
 ```python
 dut.sel.value=0b00000
 dut.inp0.value=0b01
