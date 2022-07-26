@@ -73,4 +73,4 @@ It is seen that the functionality of the module described above can be depicted 
 The input sequence taken for verification purposes is decided on in such a way that all the states are checked during execution along with the overlapping condition of the sequence detector module. This strategy helps in ensuring that the model detects all possible sequences of 1011. The DUT output is logged at every input which helps us to see whether each and every sequence is detected or not.
 
 ## Is the verification complete ?
-Yes, the verification is complete as per a 31:1 mux design.
+Yes, the verification is complete as per an overlapping sequence detector design.
