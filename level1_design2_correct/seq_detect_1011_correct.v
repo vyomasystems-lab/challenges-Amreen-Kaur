@@ -77,12 +77,12 @@
        end 
        SEQ_1011: 
        begin 
-         if(inp_bit == 0) //change 
-           next_state = SEQ_10; //change 
+         if(inp_bit == 0) 
+           next_state = SEQ_10; 
          else //change 
            next_state = IDLE; 
        end 
-       
+      default: next_state= IDLE; 
      endcase 
    end 
  endmodule
